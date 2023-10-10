@@ -22,6 +22,8 @@ a is ""
 b is 0
 c is 0
 */
+var y string
+
 func main() {
 	var student1 string = "123"
 	var student2 = "abhay"
@@ -36,5 +38,7 @@ func main() {
 	fmt.Println(student2)
 	fmt.Println(x)
 	c = 3
+	y = "2"
+	fmt.Println(y)
 	fmt.Println(c)
 }
