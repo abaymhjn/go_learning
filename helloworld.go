@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
+	//only output string
 	fmt.Println("Hello World!")
 }
