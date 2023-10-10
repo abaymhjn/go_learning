@@ -24,6 +24,8 @@ c is 0
 */
 var y string
 
+const pi = 3.14
+
 func main() {
 	var student1 string = "123"
 	var student2 = "abhay"
@@ -57,4 +59,19 @@ func main() {
 	const cont_abhay, cont_1, cont_2 = 12, "abhay", 213
 	//cont_abhay = 20
 	fmt.Println(cont_abhay, cont_1, cont_2)
+
+	const (
+		abc     int    = 234
+		sexy    string = "very"
+		no_sexy        = 3.5
+	)
+
+	fmt.Println(abc, sexy, no_sexy)
+
+	fmt.Println(pi)
+	//add space if all variables/constant are not string
+	//single '' outout n as variable not new line So use "" for new line
+	fmt.Print(abc, no_sexy, "\n")
+
+	fmt.Print(abc, sexy)
 }
