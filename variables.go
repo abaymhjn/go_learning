@@ -41,7 +41,16 @@ func main() {
 	y = "2"
 	fmt.Println(y)
 	fmt.Println(c)
-
+	//single line multiple valiables define
 	var m, n, o = 10, 20, 30
 	fmt.Println(m, n, o)
+
+	//define vars as block
+
+	var (
+		d int
+		e string = "abhay"
+	)
+	d = 2000
+	fmt.Println(d, e)
 }
