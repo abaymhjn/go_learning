@@ -41,4 +41,7 @@ func main() {
 	y = "2"
 	fmt.Println(y)
 	fmt.Println(c)
+
+	var m, n, o = 10, 20, 30
+	fmt.Println(m, n, o)
 }
