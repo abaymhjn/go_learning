@@ -73,7 +73,25 @@ func main() {
 	//single '' outout n as variable not new line So use "" for new line
 	fmt.Print(abc, no_sexy, "\n")
 
-	fmt.Print(abc, sexy)
+	fmt.Print(abc, sexy, "\n")
 	//printf require to pass exact number of variables or constants
-	fmt.Printf("abc has value : %v and Type : %T", abc, abc)
+	fmt.Printf("abc has value : %v and Type : %T \n", abc, abc)
+
+	/* Verb	Description
+	   %v	Prints the value in the default format
+	   %#v	Prints the value in Go-syntax format
+	   %T	Prints the type of the value
+	   %%	Prints the % sign */
+	var i = 15.5
+	var txt = "Hello World!"
+
+	fmt.Printf("%v\n", i)
+	fmt.Printf("%#v\n", i)
+	fmt.Printf("%v%%\n", i)
+	fmt.Printf("%T\n", i)
+
+	fmt.Printf("%v\n", txt)
+	fmt.Printf("%#v\n", txt)
+	fmt.Printf("%v%%\n", txt)
+	fmt.Printf("%T\n", txt)
 }
