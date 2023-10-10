@@ -48,9 +48,13 @@ func main() {
 	//define vars as block
 
 	var (
-		d int
-		e string = "abhay"
+		d   int
+		e_d string = "abhay"
 	)
 	d = 2000
-	fmt.Println(d, e)
+	fmt.Println(d, e_d)
+	// constants
+	const cont_abhay, cont_1, cont_2 = 12, "abhay", 213
+	//cont_abhay = 20
+	fmt.Println(cont_abhay, cont_1, cont_2)
 }
