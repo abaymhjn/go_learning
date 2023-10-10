@@ -1,3 +1,8 @@
+/*
+This is Basic Go Program
+
+To print Hello World
+*/
 package main
 
 import (
