@@ -74,4 +74,6 @@ func main() {
 	fmt.Print(abc, no_sexy, "\n")
 
 	fmt.Print(abc, sexy)
+	//printf require to pass exact number of variables or constants
+	fmt.Printf("abc has value : %v and Type : %T", abc, abc)
 }
