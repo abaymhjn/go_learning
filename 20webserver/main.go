@@ -70,7 +70,7 @@ func perform_post_form_data() {
 
 	// formdata
 	data := url.Values{}
-	data.Add("firstname", "hitesh")
+	data.Add("firstname", "Abhay")
 	data.Add("lastname", "mahajan")
 
 	response, err := http.PostForm(my_url, data)
